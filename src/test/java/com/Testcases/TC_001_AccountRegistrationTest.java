@@ -14,7 +14,7 @@ import wdcmds.ActionDriver;
 public class TC_001_AccountRegistrationTest extends BaseClass{
 
 	@Test
-	public void test_account_registration() throws InterruptedException{
+	public void test_account_registration() throws InterruptedException{  // notice me
 		
 		logger.info(" ******* Starting TC_001_AccountRegistrationTest *******");
 		

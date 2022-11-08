@@ -1,28 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-07T23:38:22 GMT" name="Default suite" finished-at="2022-11-07T23:38:36 GMT" duration-ms="14212">
+  <suite started-at="2022-11-08T01:54:09 GMT" name="Default suite" finished-at="2022-11-08T01:54:09 GMT" duration-ms="114">
     <groups>
     </groups>
-    <test started-at="2022-11-07T23:38:22 GMT" name="Default test" finished-at="2022-11-07T23:38:36 GMT" duration-ms="14212">
+    <test started-at="2022-11-08T01:54:09 GMT" name="Default test" finished-at="2022-11-08T01:54:09 GMT" duration-ms="114">
       <class name="com.Testcases.TC_001_AccountRegistrationTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.Testcases.TC_001_AccountRegistrationTest@1fa121e2]" started-at="2022-11-07T23:38:22 GMT" name="setup" finished-at="2022-11-07T23:38:31 GMT" duration-ms="8734" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[param-val-not-found]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.Testcases.TC_001_AccountRegistrationTest@44c03695]" started-at="2022-11-08T01:54:09 GMT" name="setup" finished-at="1970-01-01T01:00:00 GMT" duration-ms="-1667872449735" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
+in C:\Users\emmai\AppData\Local\Temp\testng-eclipse--1684127155\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
+in C:\Users\emmai\AppData\Local\Temp\testng-eclipse--1684127155\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:277)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_account_registration()[pri:0, instance:com.Testcases.TC_001_AccountRegistrationTest@1fa121e2]" started-at="2022-11-07T23:38:31 GMT" name="test_account_registration" finished-at="2022-11-07T23:38:35 GMT" duration-ms="4229" status="PASS">
+        <test-method signature="test_account_registration()[pri:0, instance:com.Testcases.TC_001_AccountRegistrationTest@44c03695]" started-at="2022-11-08T01:54:09 GMT" name="test_account_registration" finished-at="2022-11-08T01:54:09 GMT" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
+in C:\Users\emmai\AppData\Local\Temp\testng-eclipse--1684127155\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
+in C:\Users\emmai\AppData\Local\Temp\testng-eclipse--1684127155\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:277)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_account_registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Testcases.TC_001_AccountRegistrationTest@1fa121e2]" started-at="2022-11-07T23:38:35 GMT" name="tearDown" finished-at="2022-11-07T23:38:36 GMT" duration-ms="1187" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Testcases.TC_001_AccountRegistrationTest@44c03695]" started-at="2022-11-08T01:54:09 GMT" name="tearDown" finished-at="2022-11-08T01:54:09 GMT" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
