@@ -1,0 +1,7 @@
+com\testBase\BaseClass.class
+com\pageobjects\BasePage.class
+wdcmds\ActionDriver.class
+com\pageobjects\AccountRegistrationPage.class
+com\pageobjects\HomePage.class
+com\utilities\ExtentReportUtility.class
+com\Testcases\TC_001_AccountRegistrationTest.class
