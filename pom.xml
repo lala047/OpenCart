@@ -151,13 +151,12 @@
 	    <artifactId>extentreports</artifactId>
 	    <version>5.0.5</version>
 	</dependency>
-	<!-- https://mvnrepository.com/artifact/io.jenkins.plugins/javax-mail-api -->
-<dependency>
-    <groupId>io.jenkins.plugins</groupId>
-    <artifactId>javax-mail-api</artifactId>
-    <version>1.6.2-8</version>
-</dependency>
-	
+	<!-- https://mvnrepository.com/artifact/javax.mail/mail -->
+		<dependency>
+			<groupId>javax.mail</groupId>
+			<artifactId>mail</artifactId>
+			<version>1.4.7</version>
+		</dependency>
   </dependencies>
 
 </project>
