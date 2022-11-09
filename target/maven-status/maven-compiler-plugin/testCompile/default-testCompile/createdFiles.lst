@@ -5,3 +5,6 @@ com\pageobjects\AccountRegistrationPage.class
 com\pageobjects\HomePage.class
 com\utilities\ExtentReportUtility.class
 com\Testcases\TC_001_AccountRegistrationTest.class
+com\pageobjects\LoginPage.class
+com\pageobjects\MyAccountPage.class
+com\Testcases\TC_002_LoginTest.class
