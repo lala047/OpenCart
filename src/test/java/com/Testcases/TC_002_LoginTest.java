@@ -24,8 +24,10 @@ public class TC_002_LoginTest extends BaseClass{
 		lp.SetPwd("password");
 		lp.clickLogin();
 		
+		
+		
 		//To verify that we landed on the acct page after log in
-		MyAccountPage acct=new MyAccountPage(driver);
+		/*MyAccountPage acct=new MyAccountPage(driver);
 		boolean targetpage=acct.isMyAccountPageExists();
 		
 		try {
@@ -34,10 +36,25 @@ public class TC_002_LoginTest extends BaseClass{
 		
 		catch(Exception e)
 		{
-			Assert.fail();
-		}
+			Assert.fail();*/
 		
-	}
+		
+		/*if
+		(driver.getTitle().equals("My Account")) {
+			 Assert.assertTrue(true); 
+		}else {
+				  Assert.assertTrue(false);  */
+		
+		boolean res=driver.getPageSource().contains("My Account");//just  copy the text(which is any message on the page of interest)and put here
+		
+		if(res==true)
+		{
+		Assert.assertTrue(true);
+			
+		}else{
+		Assert.assertTrue(false);
 	
 
+		}
+	}
 }
