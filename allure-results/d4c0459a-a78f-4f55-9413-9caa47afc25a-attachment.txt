@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#username\"}\n  (Session info: chrome=114.0.5735.134)",
+  "stacktrace": "Backtrace:\n\tGetHandleVerifier [0x00AFA813+48355]\n\t(No symbol) [0x00A8C4B1]\n\t(No symbol) [0x00995358]\n\t(No symbol) [0x009C09A5]\n\t(No symbol) [0x009C0B3B]\n\t(No symbol) [0x009EE232]\n\t(No symbol) [0x009DA784]\n\t(No symbol) [0x009EC922]\n\t(No symbol) [0x009DA536]\n\t(No symbol) [0x009B82DC]\n\t(No symbol) [0x009B93DD]\n\tGetHandleVerifier [0x00D5AABD+2539405]\n\tGetHandleVerifier [0x00D9A78F+2800735]\n\tGetHandleVerifier [0x00D9456C+2775612]\n\tGetHandleVerifier [0x00B851E0+616112]\n\t(No symbol) [0x00A95F8C]\n\t(No symbol) [0x00A92328]\n\t(No symbol) [0x00A9240B]\n\t(No symbol) [0x00A84FF7]\n\tBaseThreadInitThunk [0x767000C9+25]\n\tRtlGetAppContainerNamedObjectPath [0x77E37B4E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77E37B1E+238]\n"
+}
